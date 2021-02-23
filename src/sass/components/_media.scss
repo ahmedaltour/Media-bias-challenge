@@ -1,0 +1,30 @@
+.media {
+  &__wrapper {
+    display: flex;
+    &-container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 33px;
+      margin-bottom: 33px;
+      width: 100%;
+      margin-left: 132px;
+      margin-right: 132px;
+    }
+  }
+
+  &__queries {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 35vh;
+    &::after {
+      content: "";
+      margin-right: 470px;
+    }
+  }
+}

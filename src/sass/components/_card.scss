@@ -1,0 +1,34 @@
+.card {
+  &__wrapper {
+    margin-right: 13px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+  }
+
+  &__shape {
+    width: 137px;
+    height: 204px;
+
+    background-color: $footer-color-primary;
+    color: $font-color-primary;
+
+    font-size: 27px;
+    font-weight: 600;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/assets/placeholder.png);
+    background-position: center;
+  }
+
+  &__description {
+    &-text {
+      margin-block-start: 5px;
+      margin-block-end: 0;
+      font-size: 13px;
+      font-weight: 600;
+    }
+  }
+}

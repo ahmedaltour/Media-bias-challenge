@@ -1,0 +1,34 @@
+.searchbar {
+  max-width: 433px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-bottom: 12px;
+
+  &__input {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.18);
+    border: solid 0 $border-color;
+    padding-left: 16px;
+    padding-top: 6px;
+    flex-grow: 1;
+    font-size: 13px;
+
+    &::placeholder {
+      color: $placeholder-color;
+    }
+  }
+
+  &__button {
+    width: 63px;
+    height: 37px;
+    background-color: $color-primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-icon {
+      width: 25px;
+      height: 25px;
+      background-color: #ffffff;
+    }
+  }
+}

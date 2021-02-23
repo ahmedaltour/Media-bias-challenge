@@ -1,0 +1,40 @@
+.moviecard {
+  &__wrapper {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin: 23px 13px 23px 0;
+
+    &:hover p {
+      animation: grow 2s infinite ease-in-out;
+    }
+  }
+
+  &__image {
+    margin-bottom: 11px;
+    width: 134px;
+    height: 201px;
+  }
+
+  &__text {
+    width: 110px;
+
+    font-size: 13px;
+
+    color: $footer-color-primary;
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1) translateX(0);
+  }
+
+  50% {
+    transform: scale(1.3) translateX(12%);
+  }
+
+  100% {
+    transform: scale(1) translateX(0);
+  }
+}
