@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ContentContext } from "../DataContent/DataContent";
 
-export function SearchBar(props) {
+export function SearchBar() {
   const [dispatch, actions] = useContext(ContentContext);
 
   const changheHandler = (e) => {

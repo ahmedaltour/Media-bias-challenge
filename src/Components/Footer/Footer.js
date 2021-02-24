@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Footer(_props) {
+export function Footer() {
   return (
     <div className="footer__wrapper">
       <div className="footer__content">

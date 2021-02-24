@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ContentContext } from "../DataContent/DataContent";
 
-export function Sort(props) {
+export function Sort() {
   const [dispatch, actions, sortOptions] = useContext(ContentContext);
 
   const changheHandler = (e) => {
